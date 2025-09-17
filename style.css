@@ -9,7 +9,7 @@
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
             color: #333;
-            background-color: #faf9f7;
+            background-color: #E8E6DE;
         }
 
         .container {
@@ -17,7 +17,7 @@
             margin: 0 auto;
             padding: 0 20px;
         }
-
+       
         /* Header */
         header {
             background-color: #faf9f7;
@@ -65,48 +65,42 @@
         }
 
         /* Hero Section */
-        .hero {
-            background-color: #faf9f7;
-            text-align: center;
-            padding: 80px 0;
-            position: relative;
-        }
+        
 
-        .hero h1 {
-            font-size: 48px;
-            color: #8B4513;
-            margin-bottom: 10px;
-        }
-
-        .hero p {
-            font-size: 18px;
-            color: #666;
-            margin-bottom: 30px;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .btn {
-            background-color: #8B4513;
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            display: inline-block;
-        }
-
-        .hero-images {
-            margin-top: 50px;
+        .hero-container{
             display: flex;
             justify-content: center;
-            gap: 20px;
+            align-items: center;
+            gap: 80px;
+            
+        }
+        .hero-banner{
+            margin-left: 80px;
+        }
+         .hero-title{
+            color: #503217;
+            font-weight: bolder;
+           margin-bottom: 20px;
+            font-size: 80px;
         }
 
-        .hero-images img {
-            height: 150px;
-            width: auto;
+        .hero-description{
+            color: gray;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .hero-btn{
+            background: #503217;
+            padding: 15px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            font-weight: 700;
+            border: none;
         }
 
         /* Shop by Category */
@@ -328,8 +322,8 @@
                 display: none;
             }
 
-            .hero h1 {
-                font-size: 32px;
+            .hero-title {
+                font-size: 28px;
             }
 
             .categories {
