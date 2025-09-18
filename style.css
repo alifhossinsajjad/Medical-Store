@@ -254,19 +254,6 @@
             
         }
 
-        /* .product {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        } */
-
-        /* .product img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 5px;
-        } */
 
         .product-health-title{
             color: #8B4513;;
@@ -288,6 +275,14 @@
         .testimonials {
             padding: 80px 0;
             text-align: center;
+           
+        }
+
+        .testimonials-title{
+            color: #8B4513;
+            font-size: 50px;
+            margin-bottom: 60px;
+            font-weight: bold;
         }
 
         .testimonial-quote {
@@ -297,7 +292,7 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             margin-bottom: 30px;
             font-style: italic;
-            max-width: 600px;
+            max-width: 1200px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -307,32 +302,38 @@
             justify-content: center;
             gap: 30px;
             flex-wrap: wrap;
+            margin-top: 100px
         }
 
         .client {
             text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: dotted;
+            border-radius: 50%;
+            width: 90px;
+            height: 90px;
+            padding: 40px;
         }
 
         .client img {
             width: 80px;
             height: 80px;
             border-radius: 50%;
-            margin-bottom: 10px;
+            
         }
 
-        .client h5 {
-            color: #8B4513;
-            margin-bottom: 5px;
-        }
-
-        .client p {
-            color: #999;
-            font-size: 14px;
+        .clients-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
         }
 
         /* Footer */
         footer {
-            background-color: #8B4513;
+            background-color: #E2DFCF;
             color: white;
             padding: 50px 0 20px;
         }
